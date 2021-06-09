@@ -3,8 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
     iniciarApp();
 
 });
-let producto1=1;
-let producto2=1;
 
 
 function iniciarApp() {
@@ -22,9 +20,9 @@ function agregarProducto() {
             const targetProduct = event.target;
             const targetProductAttribute = targetProduct.getAttribute('data-target');
 
-            const cantidadProducto = document.querySelector(targetProductAttribute);
-            producto1++;
-            cantidadProducto.innerHTML = `${producto1}`;
+            const cantidadProducto = document.querySelector(targetProductAttribute);                  
+            
+            cantidadProducto.innerHTML = `${parseInt( cantidadProducto.innerHTML) + 1}`;
             
         })
     });    
@@ -39,8 +37,10 @@ function quitarProducto(){
             const targetProductAttribute = targetProduct.getAttribute('data-target');
 
             const cantidadProducto = document.querySelector(targetProductAttribute);
-            producto1--;
-            cantidadProducto.innerHTML = `${producto1}`;
+            if(parseInt( cantidadProducto.innerHTML)>0){
+                cantidadProducto.innerHTML = `${parseInt( cantidadProducto.innerHTML) - 1}`;
+            }
+            
             
         })
     });    

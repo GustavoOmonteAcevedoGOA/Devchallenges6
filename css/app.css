@@ -1,12 +1,14 @@
 html {
-    font-size: 62.5%;
-    box-sizing: border-box;
+  font-size: 62.5%;
+  box-sizing: border-box;
 }
 body {
-    font-family: 'Montserrat', sans-serif;    
-    margin: 0;
-    background-color: #FFFFFF;
-    
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+}
+img {
+  width: 100%;
 }
 
 h1,
@@ -14,234 +16,583 @@ h2,
 h3,
 h4,
 p {
-    margin: 0;
+  margin: 0;
 }
 
-.contenedor {
-    width: calc(100% - 5.866%);
-    max-width: var(97rem);
-    margin-left: auto;
-    margin-right: auto;
+.container {
+  width: calc(100% - 5.866%);
+  max-width: 97rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+label {
+  margin-bottom: 0.7rem;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  color: #4f4f4f;
 }
 
-
-
-
-
-/*--===========
-'Montserrat', sans-serif
-
-
-h1
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 24px;        font-size: 36px;
-line-height: 29px;      line-height: 44px;
-color: #4E5150;
-
-
-
-card
-
-background: #F2F2F2;
-border-radius: 12px;
-
-
-card producto
-margin-top:30.56;
-
-card producto name
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 12px;        font-size: 16px;
-line-height: 15px;      line-height: 20px;
-
-color: #4E5150;
-
-card product price
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 14px;        font-size: 16px;
-line-height: 17px;      line-height: 20px;
-
-color: #F2994A;
-
-
-card product price span
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 10px;        font-size: 12px;
-line-height: 12px;      line-height: 15px;
-text-decoration-line: line-through;
-color: #4E5150;
-
-
-
-card product amount
-
-border: 1px solid #828282;
-box-sizing: border-box;
-border-radius: 12px;
-width: 122.8;
-height:50;
-
-card product amount less,
-card product amount more
-
-width:19.39;        21.2
-height:19.39;       21.2
-background: #E0E0E0;
-border-radius: 4px;
-
-
-card product amount less icon,
-card product amount more icon
-background: #828282;
-
-
-
-
-card product amount number
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: left;
-color: #333333;
-
-card details
-
-margin-top:58.26px;
-
-card details list
-
-border-top: 1px solid #BDBDBD;
-
-
-
-card details list left
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 14px;        font-size: 18px;
-line-height: 17px;       line-height: 22px;
-letter-spacing: 0em;
-text-align: left;
-color: #333333;
-
-
-card details list right
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 17px;
-letter-spacing: 0em;
-text-align: right;
-color: #333333;
-
-
-form h2
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 14px;        font-size: 18px;
-line-height: 17px;      line-height: 22px;
-color: #333333;
-
-form labels
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 10px;        font-size: 12px;
-line-height: 12px;      line-height: 15px;
-color: #4F4F4F;
-
-
-form inputs
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 12px;        font-size: 16px;
-line-height: 15px;       line-height: 20px;
-letter-spacing: 0em;
-text-align: left;
-color: #828282;
-padding-left: 39.06px; 
-
-
-form inputs icon 
-width: 14px;  witdth :19px
-
-
-form p
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 10px;        font-size: 12px;
-line-height: 12px;      line-height: 15px;
-letter-spacing: 0em;
-text-align: left;
-#4F4F4F
-
-
-form p check
-width: 16px;        width: 21px;
-height: 16px;       height: 16px;
-border: 1px solid #828282;
-box-sizing: border-box;
-border-radius: 4px;
-
-
-form button
-background: #F2994A;
-border-radius: 12px;
-
-
-form button p
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 20px;
-color:#FFFFFF;
-padding:17px 45px;
-
-=============--*/
+@media (min-width: 768px) {
+  label {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+input {
+  margin-bottom: 2rem;
+  color: #333333;
+  padding-top: 17.09px;
+  padding-bottom: 17.9px;
+  padding-left: 36.06px;
+  border-radius: 12px;
+  display: inline-block;
+  border: 1px solid #828282;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+}
+@media (min-width: 768px) {
+  input {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+input::placeholder {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+}
+@media (min-width: 768px) {
+  input::placeholder {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #4e5150;
+  margin-top: 3.2rem;
+  margin-bottom: 2.1rem;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 36px;
+    line-height: 44px;
+    margin-top: 6.4rem;
+    margin-bottom: 5.1rem;
+  }
+}
+main {
+  display: flex;
+  flex-direction: column-reverse;
+}
+@media (min-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 768px) {
+  .contact {
+    width: 52.5%;
+  }
+}
+@media (min-width: 992px) {
+  .contact {
+    width: 49.5%;
+  }
+}
+
+.product {
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+  .product {
+    width: 42%;
+    margin-bottom: 0rem;
+  }
+}
+@media (min-width: 992px) {
+  .product {
+    width: 39%;
+    margin-bottom: 0rem;
+  }
+}
+
+.card {
+  border-radius: 12px;
+  background: #f2f2f2;
+  padding-top: 3.05rem;
+  padding-bottom: 2rem;
+  padding-left: 2.6rem;
+  padding-right: 2.6rem;
+}
+@media (min-width: 768px) {
+  .card {
+    padding-left: 2.9rem;
+    padding-right: 2.9rem;
+  }
+}
+.unit {
+  display: flex;
+  margin-bottom: 2.8rem;
+}
+.unit__image {
+  flex: 0 0 40%;
+  margin-right: 7%;
+}
+.unit__image img {
+  border-radius: 12px;
+}
+.unit__info {
+  flex: 0 0 57%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.unit__info .name {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #4e5150;
+  margin-bottom: 1rem;
+}
+@media (min-width: 480px) {
+  .unit__info .name {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+@media (min-width: 576px) {
+  .unit__info .name {
+    font-size: 22px;
+    line-height: 26px;
+  }
+}
+@media (min-width: 768px) {
+  .unit__info .name {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.unit__info .price {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #f2994a;
+}
+@media (min-width: 480px) {
+  .unit__info .price {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+@media (min-width: 576px) {
+  .unit__info .price {
+    font-size: 22px;
+    line-height: 26px;
+  }
+}
+@media (min-width: 768px) {
+  .unit__info .price {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #f2994a;
+  }
+}
+.unit__info .price span {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  margin-left: 1.2rem;
+  text-decoration-line: line-through;
+  color: #4e5150;
+}
+@media (min-width: 576px) {
+  .unit__info .price span {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+@media (min-width: 768px) {
+  .unit__info .price span {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+.unit__info .amount {
+  border: 1px solid #828282;
+  box-sizing: border-box;
+  border-radius: 12px;
+  width: 100%;
+  min-height: 5rem;
+  height: 38.05%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 77%;
+}
+@media (min-width: 768px) {
+  .unit__info .amount {
+    width: 134.8px;
+    height: 52px;
+  }
+}
+
+.amount .less,
+.amount .more {
+  width: 1.939rem;
+  height: 1.939rem;
+  background: #e0e0e0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+@media (min-width: 480px) {
+  .amount .less,
+  .amount .more {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+@media (min-width: 576px) {
+  .amount .less,
+  .amount .more {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+@media (min-width: 768px) {
+  .amount .less,
+  .amount .more {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+.amount .less::before,
+.amount .more::before {
+  font-family: "Material icons";
+
+  display: inline-block;
+  font-size: 2rem;
+  font-style: normal;
+  line-height: 1;
+  color: #828282;
+  direction: ltr;
+}
+@media (min-width: 480px) {
+  .amount .less::before,
+  .amount .more::before {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 576px) {
+  .amount .less::before,
+  .amount .more::before {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 768px) {
+  .amount .less::before,
+  .amount .more::before {
+    font-size: 2rem;
+  }
+}
+.amount .less::before {
+  content: "remove";
+}
+.amount .more::before {
+  content: "add";
+}
+
+.amount p {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  letter-spacing: 0rem;
+  color: #333333;
+}
+@media (min-width: 480px) {
+  .amount p {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+}
+@media (min-width: 768px) {
+  .amount p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+}
+.details {
+  margin-top: 8.715rem;
+}
+
+.details .list {
+  border-top: 1px solid #bdbdbd;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.971rem;
+  padding-bottom: 0.971rem;
+}
+
+.list .list-left p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+}
+@media (min-width: 768px) {
+  .list .list-left p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+.list .list-right p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #333333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+form h2 {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 1.2rem;
+  line-height: 17px;
+  color: #333333;
+}
+@media (min-width: 768px) {
+  form h2 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+  }
+}
+form h2:nth-of-type(2) {
+  margin-top: 2.5rem;
+}
+
+.box-contry,
+.box-postal {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+@media (min-width: 768px) {
+  .box-contry,
+  .box-postal {
+    width: 48%;
+  }
+}
+@media (min-width: 992px) {
+  .box-contry,
+  .box-postal {
+    width: 45%;
+  }
+}
+.save {
+  display: flex;
+  align-items: center;
+}
+
+.save input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  height: 16px;
+  width: 16px;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #828282;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  .save input[type="checkbox"] {
+    height: 21px;
+    width: 21px;
+  }
+}
+
+.save input[type="checkbox"]::after {
+  font-family: "Material icons";
+  content: "check";
+  font-weight: 700;
+  color: #ffffff;
+  position: absolute;
+  display: none;
+}
+
+.save input[type="checkbox"]:checked {
+  background: #f2994a;
+}
+
+.save input[type="checkbox"]:checked::after {
+  display: block;
+}
+
+.save label {
+  margin-left: 0.778rem;
+  margin-bottom: 0;
+}
+.box__continue {
+  display: flex;
+  justify-content: flex-end;
+}
+.continue__button {
+  border: none;
+  display: inline-block;
+  margin-top: 2rem;
+  background: #f2994a;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 17px 45px;
+}
+
+#country {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #bcbcbc;
+  padding-top: 17.09px;
+  padding-bottom: 17.9px;
+  padding-left: 39.06px;
+  border: 1px solid #828282;
+  border-radius: 12px;
+  background-image: url("../img/arrow-down.png");
+  background-repeat: no-repeat;
+  background-size: 21px;
+  background-position-x: 98%;
+  background-position-y: center;
+  outline: none;
+}
+@media (min-width: 768px) {
+  #country {
+    font-size: 16px;
+    line-height: 19.5px;
+  }
+}
+#country::-ms-expand {
+  display: none;
+}
+#country:hover {
+  cursor: pointer;
+}
+#country option {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14.63px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+}
+@media (min-width: 768px) {
+  #country option {
+    font-size: 16px;
+    line-height: 19.5px;
+  }
+}
+.selected {
+  display: none;
+}
 footer {
+  margin-top: 8.4rem;
+  margin-bottom: 2.4rem;
+}
+
+@media (min-width: 768px) {
+  footer {
     margin-top: 14.4rem;
-    margin-bottom: 2.4rem;
+  }
 }
 
 footer p {
-    font-weight: 600;
-    font-size: 1.4rem;
-    line-height: 1.707rem;
-    text-align: center;
-    color:#BDBDBD;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.707rem;
+  text-align: center;
+  color: #b9bdcf;
 }
 
 footer p span {
-    font-weight: 700;
-    text-decoration: underline;
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 footer p span a,
 footer p span a:visited {
-    color:#BDBDBD;
+  color: #b9bdcf;
+}
+
+footer {
+  margin-top: 14.4rem;
+  margin-bottom: 2.4rem;
+}
+
+footer p {
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.707rem;
+  text-align: center;
+  color: #bdbdbd;
+}
+
+footer p span {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+footer p span a,
+footer p span a:visited {
+  color: #bdbdbd;
+}
+.place {
+  display: flex;
+  justify-content: space-between;
 }
