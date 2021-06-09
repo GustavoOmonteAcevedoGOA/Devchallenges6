@@ -1,0 +1,247 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;    
+    margin: 0;
+    background-color: #FFFFFF;
+    
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+.contenedor {
+    width: calc(100% - 5.866%);
+    max-width: var(97rem);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+/*--===========
+'Montserrat', sans-serif
+
+
+h1
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;        font-size: 36px;
+line-height: 29px;      line-height: 44px;
+color: #4E5150;
+
+
+
+card
+
+background: #F2F2F2;
+border-radius: 12px;
+
+
+card producto
+margin-top:30.56;
+
+card producto name
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;        font-size: 16px;
+line-height: 15px;      line-height: 20px;
+
+color: #4E5150;
+
+card product price
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;        font-size: 16px;
+line-height: 17px;      line-height: 20px;
+
+color: #F2994A;
+
+
+card product price span
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 10px;        font-size: 12px;
+line-height: 12px;      line-height: 15px;
+text-decoration-line: line-through;
+color: #4E5150;
+
+
+
+card product amount
+
+border: 1px solid #828282;
+box-sizing: border-box;
+border-radius: 12px;
+width: 122.8;
+height:50;
+
+card product amount less,
+card product amount more
+
+width:19.39;        21.2
+height:19.39;       21.2
+background: #E0E0E0;
+border-radius: 4px;
+
+
+card product amount less icon,
+card product amount more icon
+background: #828282;
+
+
+
+
+card product amount number
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #333333;
+
+card details
+
+margin-top:58.26px;
+
+card details list
+
+border-top: 1px solid #BDBDBD;
+
+
+
+card details list left
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;        font-size: 18px;
+line-height: 17px;       line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #333333;
+
+
+card details list right
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: right;
+color: #333333;
+
+
+form h2
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;        font-size: 18px;
+line-height: 17px;      line-height: 22px;
+color: #333333;
+
+form labels
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 10px;        font-size: 12px;
+line-height: 12px;      line-height: 15px;
+color: #4F4F4F;
+
+
+form inputs
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;        font-size: 16px;
+line-height: 15px;       line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #828282;
+padding-left: 39.06px; 
+
+
+form inputs icon 
+width: 14px;  witdth :19px
+
+
+form p
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 10px;        font-size: 12px;
+line-height: 12px;      line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+#4F4F4F
+
+
+form p check
+width: 16px;        width: 21px;
+height: 16px;       height: 16px;
+border: 1px solid #828282;
+box-sizing: border-box;
+border-radius: 4px;
+
+
+form button
+background: #F2994A;
+border-radius: 12px;
+
+
+form button p
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color:#FFFFFF;
+padding:17px 45px;
+
+=============--*/
+footer {
+    margin-top: 14.4rem;
+    margin-bottom: 2.4rem;
+}
+
+footer p {
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.707rem;
+    text-align: center;
+    color:#BDBDBD;
+}
+
+footer p span {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+footer p span a,
+footer p span a:visited {
+    color:#BDBDBD;
+}
