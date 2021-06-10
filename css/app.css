@@ -31,6 +31,7 @@ label {
   font-size: 10px;
   line-height: 12px;
   color: #4f4f4f;
+  position: relative;
 }
 
 @media (min-width: 768px) {
@@ -38,6 +39,63 @@ label {
     font-size: 12px;
     line-height: 15px;
   }
+}
+label.icon::before {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  color: #828282;
+  position: absolute;
+  left: 11px;
+  top: 34px;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+@media (min-width: 768px) {
+  label.icon::before {
+    font-size: 24px;
+    left: 9px;
+    top: 39px;
+  }
+}
+label[for="email"]::before {
+  content: "email";
+}
+label[for="phone"]::before {
+  content: "phone";
+}
+label[for="name"]::before {
+  content: "account_circle";
+}
+label[for="address"]::before {
+  content: "home";
+}
+label[for="city"]::before {
+  content: "location_city";
+}
+label[for="country"]::before {
+  content: "location_city";
+}
+label[for="postal-code"]::before {
+  content: "markunread_mailbox";
 }
 input {
   margin-bottom: 2rem;
@@ -508,7 +566,7 @@ form h2:nth-of-type(2) {
   color: #bcbcbc;
   padding-top: 17.09px;
   padding-bottom: 17.9px;
-  padding-left: 39.06px;
+  padding-left: 32px;
   border: 1px solid #828282;
   border-radius: 12px;
   background-image: url("../img/arrow-down.png");
