@@ -192,6 +192,12 @@ main {
 }
 @media (min-width: 768px) {
   .unit__info .name {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .unit__info .name {
     font-size: 16px;
     line-height: 20px;
   }
