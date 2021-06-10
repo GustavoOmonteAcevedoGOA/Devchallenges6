@@ -486,6 +486,7 @@ form h2:nth-of-type(2) {
   line-height: 20px;
   color: #ffffff;
   padding: 17px 45px;
+  cursor: pointer;
 }
 
 #country {
@@ -530,7 +531,7 @@ form h2:nth-of-type(2) {
   line-height: 14.63px;
   letter-spacing: 0em;
   text-align: left;
-  color: #828282;
+  color: #bcbcbc;
 }
 @media (min-width: 768px) {
   #country option {
